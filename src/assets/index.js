@@ -22,14 +22,14 @@ import next from "./tech/next.png";
 import typescript from "./tech/typescript.png";
 import c from "./tech/c.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import iste from "./company/iste.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import instam from "./instam.png";
+import globalspk from "./globalspk.png";
+import getpan from "./getpan.png"
+import link from "./link.png"
+
+import avatar from "./avatar.jpeg";
 
 export {
   logo,
@@ -54,11 +54,10 @@ export {
   typescript,
   firebase,
   next,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  iste,
+  instam,
+  globalspk,
+  getpan,
+  link,
+  avatar,
 };

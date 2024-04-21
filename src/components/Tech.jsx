@@ -4,7 +4,6 @@ import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 
 import { technologies } from "../constants";
-import Image from "next/image";
 
 const Tech = () => {
   return ( 

@@ -70,7 +70,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Ravikant &nbsp;
-            <span className="sm:block hidden"> | 3D Dev Portfolio</span>
+            <span className="sm:block hidden"> | Dev Portfolio</span>
           </p>
         </Link>
 

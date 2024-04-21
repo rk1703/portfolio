@@ -2,27 +2,11 @@ import {
   mobile,
   backend,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  reactnative,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  next,
-  firebase,
-  c
+  iste,
+  instam,
+  globalspk,
+  getpan,
+  avatar
 } from "../assets";
 
 export const navLinks = [
@@ -89,6 +73,14 @@ const technologies = [
     icon: '/tech/c.png',
   },
   {
+    name: "Python",
+    icon: '/tech/python.png',
+  },
+  {
+    name: "Azure",
+    icon: '/tech/azure.png',
+  },
+  {
     name: "Next JS",
     icon: '/tech/next.png',
   },
@@ -104,10 +96,10 @@ const technologies = [
     name: "Firebase",
     icon: '/tech/firebase.png',
   },
-  {
-    name: "Tailwind CSS",
-    icon: '/tech/tailwind.png',
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: '/tech/tailwind.png',
+  // },
   {
     name: "Node JS",
     icon: '/tech/nodejs.png',
@@ -120,144 +112,65 @@ const technologies = [
     name: "Git",
     icon: '/tech/git.png',
   },
-  {
-    name: "Figma",
-    icon: '/tech/figma.png',
-  },
+  // {
+  //   name: "Figma",
+  //   icon: '/tech/figma.png',
+  // },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "ISTE SC MANIT",
+    icon: iste,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using HTML, CSS, JS and other related technologies.",
+      "Collaborating with cross-functional teams including designers, content writers, and other developers to create high-quality website.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting Workshops related DSA, Machine Learning.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our services, but Ravikant proved me wrong.",
+    name: "Kaptan Singh",
+    designation: "Co-Owner",
+    company: "VRDTechnosoft",
+    image: avatar,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    "After Ravikant optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Rishabh Kumar",
+    designation: "CMO",
+    company: "RK World",
+    image: avatar,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Ravikant does.",
+    name: "Kapil Chandel",
+    designation: "Owner",
+    company: "GetPan",
+    image: avatar,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Insta Memo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "InstaMemo is a powerful yet intuitive note-taking web application designed to help you organize your thoughts, tasks, and ideas effortlessly. Built with cutting-edge technologies like Next.js, Supabase, Tailwind CSS, Shadcn UI, and Prisma, InstaMemo offers a seamless and efficient note-taking experience.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -265,12 +178,57 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: instam,
+    website_link: "https://insta-memo.vercel.app",
+    source_code_link: "https://github.com/rk1703/InstaMemo",
+  },
+  {
+    name: "GlobalSpeak",
+    description:
+      "GlobalSpeak is a versatile and efficient text translation web application, designed to break down language barriers and connect people from around the world. Powered by cutting-edge technologies such as Next.js, Azure Cosmos DB, Tailwind CSS, Shadcn UI, and OpenAI.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Azure Cosmos DB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: globalspk,
+    website_link: "https://globalspeak.vercel.app/",
+    source_code_link: "https://github.com/rk1703/GlobalSpeak",
+  },
+  {
+    name: "GetPan",
+    description:
+      "GetPan is your one-stop solution for hassle-free PAN card services, designed to make the process of obtaining a PAN card quick and efficient. Built with Next.js, Firebase, Tailwind CSS, and Material UI, GetPan offers a user-friendly platform to apply for, track, and manage your PAN card application with ease.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: getpan,
+    website_link: "https://www.getpan.tech",
+    source_code_link: "",
   },
 ];
 
