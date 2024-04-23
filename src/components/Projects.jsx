@@ -1,6 +1,5 @@
 "use client";
 
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { github,link } from "../assets";
 import { SectionWrapper } from "../hoc";
