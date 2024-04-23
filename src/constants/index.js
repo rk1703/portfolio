@@ -77,8 +77,8 @@ const technologies = [
     icon: '/tech/python.png',
   },
   {
-    name: "Azure",
-    icon: '/tech/azure.png',
+    name: "Node JS",
+    icon: '/tech/nodejs.png',
   },
   {
     name: "Next JS",
@@ -96,25 +96,37 @@ const technologies = [
     name: "Firebase",
     icon: '/tech/firebase.png',
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: '/tech/tailwind.png',
-  // },
-  {
-    name: "Node JS",
-    icon: '/tech/nodejs.png',
-  },
   {
     name: "MongoDB",
     icon: '/tech/mongodb.png',
   },
   {
+    name: "Azure",
+    icon: '/tech/azure.png',
+  },
+  {
+    name: "AWS",
+    icon: '/tech/aws.png',
+  },
+  {
+    name: "Prisma",
+    icon: '/tech/prisma1.png',
+  },
+  {
     name: "Git",
     icon: '/tech/git.png',
   },
+  {
+    name: "Tailwind CSS",
+    icon: '/tech/tailwind.png',
+  },
+  {
+    name: "Figma",
+    icon: '/tech/figma.png',
+  },
   // {
-  //   name: "Figma",
-  //   icon: '/tech/figma.png',
+  //   name: "Material UI",
+  //   icon: '/tech/mui.png',
   // },
   
 ];
