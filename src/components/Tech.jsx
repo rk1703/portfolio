@@ -21,6 +21,7 @@ const Tech = () => {
         {technologies.map((technology,index) => (
             <motion.div
             variants={fadeIn("right", "spring", index * 0.1, 0.75)}
+            key={index}
           >
           <div
             className="w-18 h-18 flex flex-col space-y-2 items-center"
@@ -31,7 +32,7 @@ const Tech = () => {
                 technology.name === "Next JS" ? "bg-slate-300" : "bg-gray-800"
               }`}
             >
-              <Image src={technology.icon} width={48} height={48} />
+              <Image src={technology.icon} width={48} height={48} alt={technology.name}/>
             </div>
             <p className="text-center">{technology.name}</p>
           </div>
