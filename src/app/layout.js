@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Ravikant | 3D Portfolio",
-  description: "y Portfolio website",
+  description: "My Portfolio website",
 };
 
 export default function RootLayout({ children }) {
