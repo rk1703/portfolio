@@ -4,16 +4,16 @@ export const metadata = {
   title: "Ravikant | 3D Portfolio",
   description: "My Portfolio website",
   openGraph: {
-    title: "Ravikant | 3D Portfolio",
+    title: "Ravikant | Dev Portfolio",
     description: "My Portfolio website",
     url: "https://rkworld.me",
-    siteName: "Ravikant | 3D Portfolio",
+    siteName: "Ravikant | Dev Portfolio",
     images: [
       {
         url: "https://www.rkworld.me/seo-cover.png",
         width: 800,
         height: 600,
-        alt: "Ravikant | 3D Portfolio",
+        alt: "Ravikant | Dev Portfolio",
       },
     ],
     type: "website",
@@ -21,7 +21,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ravikant | 3D Portfolio",
+    title: "Ravikant | Dev Portfolio",
     description: "My Portfolio website",
     creator: "@rkworld",
     images: "https://www.rkworld.me/seo-cover.png",

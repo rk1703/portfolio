@@ -69,8 +69,12 @@ const technologies = [
     icon: '/tech/typescript.png',
   },
   {
-    name: "C++",
+    name: "C",
     icon: '/tech/c.png',
+  },
+  {
+    name: "C++",
+    icon: '/tech/c++.png',
   },
   {
     name: "Python",
@@ -101,12 +105,20 @@ const technologies = [
     icon: '/tech/mongodb.png',
   },
   {
+    name: "Express JS",
+    icon: '/tech/express.png',
+  },
+  {
     name: "Azure",
     icon: '/tech/azure.png',
   },
   {
     name: "AWS",
     icon: '/tech/aws.png',
+  },
+  {
+    name: "Supabase",
+    icon: '/tech/supabase.png',
   },
   {
     name: "Prisma",
@@ -117,6 +129,10 @@ const technologies = [
     icon: '/tech/git.png',
   },
   {
+    name: "Docker",
+    icon: '/tech/docker.png',
+  },
+  {
     name: "Tailwind CSS",
     icon: '/tech/tailwind.png',
   },
@@ -124,10 +140,10 @@ const technologies = [
     name: "Figma",
     icon: '/tech/figma.png',
   },
-  // {
-  //   name: "Material UI",
-  //   icon: '/tech/mui.png',
-  // },
+  {
+    name: "Material UI",
+    icon: '/tech/mui.png',
+  },
   
 ];
 
