@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Ravikant | 3D Portfolio",
+  title: "Ravikant | Dev Portfolio",
   description: "My Portfolio website",
   openGraph: {
     title: "Ravikant | Dev Portfolio",

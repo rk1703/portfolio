@@ -59,6 +59,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -128,6 +129,9 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    <div className="mt-6 md:mt-10 -mb-4 md:-mb-8"><p className="flex justify-center font-semibold items-center text-xl">Made with&nbsp; 💖 &nbsp;by&nbsp;<span className="tracking-wide font-semibold">RK</span>
+    </p></div>
+    </>
   );
 };
 
