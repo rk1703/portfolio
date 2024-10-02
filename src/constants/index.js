@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image: instam,
-    website_link: "https://insta-memo.vercel.app",
+    website_link: "https://instamemo.rkworld.me",
     source_code_link: "https://github.com/rk1703/InstaMemo",
   },
   {
@@ -233,7 +233,7 @@ const projects = [
       },
     ],
     image: globalspk,
-    website_link: "https://globalspeak.vercel.app/",
+    website_link: "https://globalspeak.rkworld.me",
     source_code_link: "https://github.com/rk1703/GlobalSpeak",
   },
   {
