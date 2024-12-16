@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { github,link } from "../assets";
+import { github, link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -18,9 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div
-        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
-      >
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full">
         <div className="relative w-full h-[230px]">
           <Image
             src={image}
@@ -30,7 +28,6 @@ const ProjectCard = ({
             className="w-full h-full  rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 space-x-2 card-img_hover">
-            
             <div
               onClick={() => window.open(website_link, "_blank")}
               className="bg-slate-100 w-8 h-8 rounded-full flex relative justify-center items-center cursor-pointer"
@@ -38,22 +35,24 @@ const ProjectCard = ({
               <Image
                 src={link}
                 alt="web-link"
-                style={{ objectFit: "contain",position:"relative" }}
+                style={{ objectFit: "contain", position: "relative" }}
                 className="w-1/2 h-1/2"
               />
             </div>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-8 h-8 rounded-full flex relative justify-center items-center cursor-pointer"
-            >
-              <Image
-                src={github}
-                alt="github"
-                fill
-                style={{ objectFit: "contain" }}
-                className="w-1/2 h-1/2"
-              />
-            </div>
+            {source_code_link && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-8 h-8 rounded-full flex relative justify-center items-center cursor-pointer"
+              >
+                <Image
+                  src={github}
+                  alt="github"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  className="w-1/2 h-1/2"
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-5">

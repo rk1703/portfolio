@@ -6,7 +6,11 @@ import {
   instam,
   globalspk,
   getpan,
-  avatar
+  filmcity,
+  avatar,
+  vrdtech,
+  getpandark,
+  ekhabri
 } from "../assets";
 
 export const navLinks = [
@@ -217,7 +221,7 @@ const projects = [
   {
     name: "GlobalSpeak",
     description:
-      "GlobalSpeak is a versatile and efficient text translation web application, designed to break down language barriers and connect people from around the world. Powered by cutting-edge technologies such as Next.js, Azure Cosmos DB, Tailwind CSS, Shadcn UI, and OpenAI.",
+      "GlobalSpeak is a versatile and efficient text translation web application, designed to break down language barriers and connect people. Powered by cutting-edge technologies such as Next.js, Azure Cosmos DB, Tailwind CSS, Shadcn UI, and OpenAI.",
     tags: [
       {
         name: "next.js",
@@ -254,9 +258,75 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: getpan,
+    image: getpandark,
     website_link: "https://www.getpan.tech",
     source_code_link: "",
+  },
+  {
+    name: "VRD Technosoft",
+    description:
+      "VRD Technosoft is a static site built with Next.js and Tailwind and hosted on vercel. It has beautiful eye catching UI. This website is made for showing the online presence of a computer reparing shop with a email based contact page.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrdtech,
+    website_link: "https://vrdtechnosoft.vercel.app",
+    source_code_link: "",
+  },
+  {
+    name: "FilmCity",
+    description:
+      "FilmCity is a Media Content Streaming platform, where you can watch latest Movies and TV shows withony any Subscriptions and it is Ads free. Authenticated by firebase and hosted on Vercel and Built with React, TypeScript and Tailwind CSS.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescipt",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: filmcity,
+    website_link: "https://filmcity-omega.vercel.app",
+    source_code_link: "",
+  },
+  {
+    name: "e-Khabri",
+    description:
+      "e-Khabri is a Web Application that shows latest News of multiple categories. It fetching latest News articles from Media Stack's API and shows on display with Dark Mode functionality. Built with React and Bootstrap CSS, hosted on Vercel.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootsrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ekhabri,
+    website_link: "https://e-khabri.vercel.app",
+    source_code_link: "https://github.com/rk1703/e-khabri",
   },
 ];
 

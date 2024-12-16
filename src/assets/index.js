@@ -27,6 +27,10 @@ import iste from "./company/iste.png";
 import instam from "./instam.png";
 import globalspk from "./globalspk.png";
 import getpan from "./getpan.png"
+import filmcity from "./filmcity.png"
+import vrdtech from "./vrdtech.png"
+import  getpandark from "./getpandark.png"
+import  ekhabri from "./ekhabri.png"
 import link from "./link.png"
 
 import avatar from "./avatar.jpeg";
@@ -58,6 +62,10 @@ export {
   instam,
   globalspk,
   getpan,
+  filmcity,
+  vrdtech,
+  getpandark,
+  ekhabri,
   link,
   avatar,
 };
