@@ -259,7 +259,7 @@ const projects = [
       },
     ],
     image: getpandark,
-    website_link: "https://www.getpan.tech",
+    website_link: "https://get-pan-next.vercel.app/",
     source_code_link: "",
   },
   {

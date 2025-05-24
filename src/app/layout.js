@@ -6,11 +6,11 @@ export const metadata = {
   openGraph: {
     title: "Ravikant | Dev Portfolio",
     description: "My Portfolio website",
-    url: "https://rkworld.me",
+    url: "https://rkworld.codes",
     siteName: "Ravikant | Dev Portfolio",
     images: [
       {
-        url: "https://www.rkworld.me/seo-cover.png",
+        url: "https://www.rkworld.codes/seo-cover.png",
         width: 800,
         height: 600,
         alt: "Ravikant | Dev Portfolio",
@@ -24,7 +24,7 @@ export const metadata = {
     title: "Ravikant | Dev Portfolio",
     description: "My Portfolio website",
     creator: "@rkworld",
-    images: "https://www.rkworld.me/seo-cover.png",
+    images: "https://www.rkworld.codes/seo-cover.png",
   },
   category: "technology",
 };
